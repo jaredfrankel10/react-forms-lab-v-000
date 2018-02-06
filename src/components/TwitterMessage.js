@@ -9,7 +9,7 @@ class TwitterMessage extends React.Component {
            lessThanMax: true
          };
        }
-     
+
        handleChange = (event)=> {
          var input = event.target.value;
          var maxChars = this.props.maxChars;
